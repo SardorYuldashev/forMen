@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'AR-400';
+  src: url('../fonts/Anton-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'FR-400';
+  src: url('../fonts/FredokaOne-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'RR-400';
+  src: url('../fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'PR-400';
+  src: url('../fonts/Pacifico-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'RuR-400';
+  src: url('../fonts/RussoOne-Regular.ttf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+  background: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

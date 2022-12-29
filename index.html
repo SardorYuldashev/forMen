@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="icon" href="images/male.webp" />
+    <title>forMen</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <nav class="header__nav">
+            <ul class="header__nav-list">
+              <li class="header__nav-li">
+                <a href="#!" class="header__nav-link easy"> inexpensive </a>
+              </li>
+
+              <li class="header__nav-li">
+                <a href="#!" class="header__nav-link norm"> medium </a>
+              </li>
+
+              <li class="header__nav-li">
+                <a href="#!" class="header__nav-link hard"> expensive </a>
+              </li>
+            </ul>
+
+            <div class="header__nav-search">
+              <input
+                type="text"
+                class="header__nav-searchInput"
+                placeholder="Enter the title (in English letters)"
+              />
+              <i class="fa-solid fa-magnifying-glass header__nav-searchBtn"></i>
+            </div>
+
+            <div class="header__nav-sort">
+              <i
+                class="fa-solid fa-arrow-down-1-9 header__nav-sorting minMax"
+              ></i>
+              <i
+                class="fa-solid fa-arrow-up-1-9 header__nav-sorting maxMin"
+              ></i>
+            </div>
+
+            <div class="header__nav-byPrice">
+              <h2 class="header__nav-price">Price</h2>
+
+              <div class="header__nav-priceBox">
+                <input
+                  type="number"
+                  class="header__nav-priceInput minInput"
+                  placeholder="from"
+                />
+                <input
+                  type="number"
+                  class="header__nav-priceInput maxInput"
+                  placeholder="to"
+                />
+              </div>
+
+              <a href="#!" class="header__nav-priceBtn">show</a>
+            </div>
+          </nav>
+        </div>
+      </header>
+
+      <main class="main">
+        <div class="container">
+          <div class="main__content">
+            <div class="main__content-come">
+              <div class="main__content-come-box">
+                <i class="fa-solid fa-arrow-left main__content-come-arrow"></i>
+
+                <h2 class="main__content-come-title">
+                  Welcome! <br />
+                  Choose a category
+                </h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <div class="wrapper__sidebar">
+        <a href="#!" class="wrapper__sidebar-logo"
+          >for<span class="wrapper__sidebar-logo-span">MEN</span></a
+        >
+
+        <ul class="wrapper__sidebar-list">
+          <li class="wrapper__sidebar-li">
+            <a href="#!" class="wrapper__sidebar-link">
+              <i class="fa-solid fa-car wrapper__sidebar-category"></i>
+            </a>
+          </li>
+          <p>|</p>
+          <li class="wrapper__sidebar-li">
+            <a href="#!" class="wrapper__sidebar-link">
+              <i class="fa-solid fa-microchip wrapper__sidebar-category"></i>
+            </a>
+          </li>
+          <p>|</p>
+          <li class="wrapper__sidebar-li">
+            <a href="#!" class="wrapper__sidebar-link">
+              <i class="fa-solid fa-shirt wrapper__sidebar-category"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="error">
+        <div class="error-box">
+          <h2 class="error-title">Error</h2>
+          <a href="#!" class="error-btn">OK</a>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/3c33e6b0c2.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="apps/app.js"></script>
+  </body>
+</html>
